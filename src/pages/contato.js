@@ -13,7 +13,7 @@ const ContatoPage = () => {
           <ContactForm />
         </div>
         <div>
-          <StaticImage src="../images/icon.png" alt="Contato Agência" placeholder="blurred" />
+          <StaticImage src="../images/icon.jpg" alt="Contato Agência" placeholder="blurred" />
         </div>
       </div>
     </Layout>
@@ -26,7 +26,7 @@ export const Head = () => (
   <>
     <title>Contato | Agência Viagens Incríveis</title>
     <meta name="description" content="Formulário de contato para dúvidas, orçamentos e pacotes." />
-    <meta property="og:image" content="/images/icon.png" />
+    <meta property="og:image" content="/images/icon.jpg" />
   </>
 );
 

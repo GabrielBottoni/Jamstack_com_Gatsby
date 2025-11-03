@@ -16,7 +16,7 @@ const IndexPage = ({ data }) => {
           <p>Pacotes personalizados, notícias e projetos especiais para sua próxima viagem.</p>
         </div>
         <div>
-          <StaticImage src="../images/icon.png" alt="Agência Viagens Incríveis" placeholder="blurred" />
+          <StaticImage src="../images/icon.jpg" alt="Agência Viagens Incríveis" placeholder="blurred" />
         </div>
       </div>
 
@@ -62,6 +62,6 @@ export const Head = () => (
   <>
     <title>Agência Viagens Incríveis — Pacotes, Notícias e Projetos</title>
     <meta name="description" content="Agência de turismo JAMstack com Gatsby. Descubra roteiros, promoções e projetos." />
-    <meta property="og:image" content="/images/icon.png" />
+    <meta property="og:image" content="/images/icon.jpg" />
   </>
 );
